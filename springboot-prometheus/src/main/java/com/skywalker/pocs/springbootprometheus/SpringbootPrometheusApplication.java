@@ -27,7 +27,7 @@ public class SpringbootPrometheusApplication {
 
   private void run() {
 
-    while (true) {
+    for (int i = 0; i < 200; i++) {
       service.executeLogic();
     }
   }
